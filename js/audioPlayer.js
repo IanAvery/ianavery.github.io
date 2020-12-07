@@ -1,5 +1,5 @@
         function audioPlayer(){
-            var currentSong = 0;
+            var currentSong = 1;
             $("#audioPlayer")[0].src = $("#playlist li a")[1];
             $("#audioPlayer")[0].play();
             $("#playlist li a").click(function(e){
