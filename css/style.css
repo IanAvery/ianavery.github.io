@@ -63,6 +63,7 @@ h5{
   overflow: hidden;
   padding-top: 5%;
   position: relative;
+  margin: auto;
 }
 
 .iframe-container iframe {
