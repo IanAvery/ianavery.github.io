@@ -45,6 +45,20 @@ h5{
     opacity:0.4
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.container img{
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+}
+
+
 .iframe-container {
   overflow: hidden;
   padding-top: 5%;
